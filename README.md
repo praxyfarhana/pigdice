@@ -1,11 +1,14 @@
 # Title
 Pig-Dice
 
-##Author
+## Author
 Praxy Abonyo Agufa
 
 ## Description
 This is an application for creating a game
+
+## Specifications
+
 
 ## Requirements
 web-browser
