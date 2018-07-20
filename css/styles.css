@@ -8,10 +8,13 @@
 .die{
   border: 2px solid;
   background-color: #336600;
-  width:200px;
+  width:500px;
   display: inline;
   padding:10px;
 }
 .wel{
-  padding:10px;
+  padding:30px;
+}
+.roll {
+  height:50px;
 }
