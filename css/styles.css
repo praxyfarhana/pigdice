@@ -1,9 +1,17 @@
 
-.dice {
-  background-image: url("https://www.knobelholz.de/images/stories/schweinchenspiel/schweinchenspiel-pig-hole-produce-steps-12-wooden-game.jpg");
-  color: #ffffff;
-  font-size: 40px;
+
 }
 #btn {
   color: #003366;
+}
+
+.die{
+  border: 2px solid;
+  background-color: #336600;
+  width:200px;
+  display: inline;
+  padding:10px;
+}
+.wel{
+  padding:10px;
 }
