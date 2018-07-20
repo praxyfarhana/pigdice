@@ -5,3 +5,6 @@ function Game (player1,player2) {
 }
 
 //front-end
+$(document).ready(function() {
+  
+})
