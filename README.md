@@ -8,7 +8,7 @@ Praxy Abonyo Agufa
 This is an application for creating a game
 
 ## Specifications
-The appropriate number is 1 to 6.
+The number to be filled in the roll dice should turn out to be 1 to 6.
 
 ## Requirements
 web-browser
