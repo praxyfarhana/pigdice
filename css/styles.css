@@ -1,5 +1,10 @@
 
 .container {
-  background-image: url("https://media.gettyimages.com/photos/rows-of-white-dice-each-set-at-different-angles-picture-id92890000");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rEsBSbfvfNjEgMYW5UKBno6PLpQ9OQLpUphkVHmqW5ZCvjnA");
   font-size: 30px;
+  color: #ffffff;
+}
+
+.well {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnvJcXNf0V3tGzInSitIS5CC11doEoMA69bE_lDk5fDizdzYkN");
 }
