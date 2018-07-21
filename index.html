@@ -1,58 +1,52 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>GAME</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Pig-Dice</h1>
-      </div>
-      <div class="row">
+<html>
+    <head>
+        <title>Pig-Dice</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/scripts.js"> </script>
+    </head>
+<body>
+<div class="main">
+    <div class="well">
+	  <h1>Pig-Dice</h1>
+        <form id="dice">
+          <div class="form-group">
+            <label for="pla1">Player 1:</label><br>
+            <input class="pla1" type="text" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="pla2">Player 2:</label><br>
+            <input class="pla2" type="text" placeholder="Enter your name">
+          </div>
+        </form>
+        <button id="play" class="btn">Play</button>
+    </div>
+  </div>
+
+  <div class="council">
+      <div class = "row">
         <div class="col-md-6">
-          <div class="dice">
-            <form id="game">
-          <div class="form-group">
-            <label for="pla1">Player 1</label><br/>
-            <input type="text" id="pla1" placeholder="Enter your name">
-          </div>
-          <div class="form-group">
-            <label for="pla2">Player 2</label><br/>
-            <input type="text" id="pla2" placeholder="Enter your name">
-          </div>
-          <button type="submit" id="btn">Play</button>
-            </form>
-          </div>
-
-          <h2>Outcome</h2>
-            <ul id="results">
-            </ul>
-              <div id="show-results">
-              <h2></h2>
-              <p>Player 1 <span class="player1"><span/></p>
-              <p>Player 2<span class="player2"></span></p>
-            </div>
-            </div>
-      <div class="col-md-6">
-        <div class="well">
-            <h3>Player 1</h3>
-          <div id="die1" class="die">0</div><br/>
-
-            <button class="roll" onclick="rolldice()">Roll dice</button>
-            <button class="hold" onclick="holddice">Hold dice</button><br/>
-            <h3>Player 2</h3>
-            <div id="die2" class="die">0</div> <br/>
-
-            <button class="roll" onclick="rolldice()">Roll dice</button>
-            <button class="hold" onclick="holddice">Hold dice</button>
+          <h2>Player 1: <span id ="pla1"><span></h2>
+            <button id="roll1" class="btn">Roll</button>
+            <button id="hold1" class="btn">Hold</button>
+          <h2 id="die1">Dice Roll: </h2>
+          <p id="total-1">Round 1: </p>
+          <p id="score-1">Players Score: </p>
         </div>
+
+      <div class="col-md-6">
+        <h2>Player 2: <span id = "pla2"><span></h2>
+          <button id="roll2" class="btn">Roll</button>
+          <button id="hold2" class="btn">Hold</button>
+          <h2 id="die2">Dice Roll: </h2>
+          <p id="total-2">Round 1: </p>
+          <p id="score-2">Players Score: </p>
+      </div>
       </div>
     </div>
-    </div>
-  </body>
+</body>
 </html>
