@@ -5,7 +5,7 @@ Pig-Dice
 Praxy Abonyo Agufa
 
 ## Description
-This is an application for creating a game
+This is an application for a dice game where have included the use of constructors,prototypes and statements to see how the game is done
 
 ## Specifications
 The number to be filled in the roll dice should turn out to be 1 to 6.

@@ -8,7 +8,7 @@ var turn = function() {
   return Math.floor(6 * Math.random()) + 1;
 }
 
-function Player() {
+function Player(turn) {
   this.roll = 0;
   this.ascore = 0;
   this.totalscore = 0;
