@@ -8,7 +8,8 @@ Praxy Abonyo Agufa
 This is an application for a dice game where have included the use of constructors,prototypes and statements to see how the game is done
 
 ## Specifications
-The number to be filled in the roll dice should turn out to be 1 to 6.
+The number to be filled in the roll dice should turn out to be between 1 to 6.
+when a player rolls one the game is passed to the second player and the game is over
 
 ## Requirements
 web-browser
