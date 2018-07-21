@@ -9,7 +9,9 @@ This is an application for a dice game where have included the use of constructo
 
 ## Specifications
 The number to be filled in the roll dice should turn out to be between 1 to 6.
-when a player rolls one the game is passed to the second player and the game is over
+When a player rolls 1 the game is passed to the second player and his turn is over.
+When hold is clicked for player1 the total is shown for play1.
+When hold is clicked for player1 and player2 both record of their total is shown.
 
 ## Requirements
 web-browser
